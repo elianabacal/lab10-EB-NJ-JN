@@ -4,11 +4,11 @@ from calculator import *
 class TestCalculator(unittest.TestCase):
     # Partner 2
     def test_add(self): # 3 assertions
-        pass
+        return self.assertEqual(add(1,2), 3)
 
     def test_subtract(self): # 3 assertions
-        pass
-    ##########################
+        return self.assertEqual(sub(2,1), 1)
+
 
     # Partner 1
     def test_multiply(self): # 3 assertions
@@ -20,18 +20,20 @@ class TestCalculator(unittest.TestCase):
 
     # Partner 2
     def test_divide_by_zero(self): # 1 assertion
+        self.assertRaises(ZeroDivisionError)
+
         # call division function inside, example:
         # with self.assertRaises(<INSERT_ERROR_TYPE>):
         #     div(0, 5)
-        pass
+
 
     def test_logarithm(self): # 3 assertions
-        pass
+        self.assertEqual(log(10, 10), 10
 
     def test_log_invalid_base(self): # 1 assertion
         # use same technique from test_divide_by_zero
-        pass
-    ##########################
+        self.assertRaises(ValueError)
+
     
     # Partner 1
     def test_log_invalid_argument(self): # 1 assertion

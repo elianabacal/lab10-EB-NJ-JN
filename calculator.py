@@ -1,3 +1,6 @@
+#https://github.com/elianabacal/lab10-EB-NJ-JN.git
+#Partner 1 Eliana
+#Partner 2 Neha
 """
 calculator.py
 - Defines functions used to create a simple calculator
@@ -5,6 +8,7 @@ calculator.py
 One function per operation, in order.
 """
 # First example
+
 import math
 def add(a, b): 
     answer = a + b

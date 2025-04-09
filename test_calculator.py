@@ -1,5 +1,9 @@
+#https://github.com/elianabacal/lab10-EB-NJ-JN.git
+#partner 1 eliana
+#partner 2 Neha
 import unittest
 from calculator import *
+
 
 class TestCalculator(unittest.TestCase):
     # Partner 2

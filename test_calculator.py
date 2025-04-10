@@ -13,7 +13,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(add(3,3), 6)
 
     def test_subtract(self): # 3 assertions
-        self.assertEqual(subtract(1,2), 2)
+        self.assertEqual(subtract(4,2), 2)
         self.assertEqual(subtract(2,2), 1)
         self.assertEqual(subtract(3,2), 1)
     ##########################
@@ -33,7 +33,7 @@ class TestCalculator(unittest.TestCase):
 
 
     def test_logarithm(self): # 3 assertions
-        self.assertEqual(math.log(8,2), 0)
+        self.assertEqual(math.log(8,2), 3)
         self.assertEqual(math.log(1,2), 0)
         self.assertEqual(math.log(1,1), 1)
 
